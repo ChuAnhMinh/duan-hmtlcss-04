@@ -1167,7 +1167,7 @@ button {
 
 .footer {
     margin-top: 53px;
-    background: #fff6ed;
+    background: linear-gradient(to right,  #fff6ed 43%,  transparent 42%);
 }
 
 .footer__inner {
@@ -1181,6 +1181,7 @@ button {
 
 .footer__right {
     flex: 1;
+    padding: 52px 0 48px 0;
 }
 
 .subscribe-form {
@@ -1260,3 +1261,32 @@ button {
     opacity: 0.9;
 }
 
+.footer__row {
+    margin-left: 129px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 58px 137px;
+}
+
+.footer__list {
+    margin-top: 14px;
+}
+
+.footer__link {
+    font-size: 1.4rem;
+    line-height: 2;
+    color: #656689;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__copyright {
+    margin: 52px 0 0 22px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.17;
+    color: #656689;
+    opacity: 0.5;
+}
