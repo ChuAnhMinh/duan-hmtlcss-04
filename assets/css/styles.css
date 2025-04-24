@@ -1175,10 +1175,15 @@ button {
 }
 
 .footer__left {
+    width: 42%;
     padding: 114px 0 148px;
 }
 
-.search-form {
+.footer__right {
+    flex: 1;
+}
+
+.subscribe-form {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1190,16 +1195,25 @@ button {
     background: #fff;
 }
 
-.search-form__input {
+.subscribe-form__input {
     width: 100%;
     height: 100%;
     padding: 0 22px;
     border: none;
     outline: none;
     border-radius: inherit;
+    font-size: 1.4rem;
 }
 
-.search-form__submit {
+.subscribe-form__input::placeholder {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.17;
+    color: #656689;
+    opacity: 0.8;
+}
+
+.subscribe-form__submit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1214,7 +1228,7 @@ button {
     border: none;
 }
 
-.search-form__submit:hover {
+.subscribe-form__submit:hover {
     opacity: 0.9;
     cursor: pointer;
 }
@@ -1245,3 +1259,4 @@ button {
 .social-item:hover {
     opacity: 0.9;
 }
+
